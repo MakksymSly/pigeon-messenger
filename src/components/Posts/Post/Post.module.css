@@ -1,0 +1,58 @@
+
+.mainPost{  
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    
+  }
+  .post{
+    padding: 5px;
+    word-break: break-all;
+    background-color: #CC0A0A;
+    display: grid;
+    grid-template-areas: "PI PA PL PT";
+    row-gap: 20px;
+    column-gap: 0px;
+    grid-template-columns: 60px 150px 100px auto;
+  }
+  .postImg{
+    margin: 0px 0px 0px 5px;
+    grid-area: PI;
+    border: black 2px solid;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+  }
+  .postAuth{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px 0px 5px;
+    text-align: start;
+    grid-area: PA;
+  }
+  .postLike{
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    grid-area: PL;
+  }
+  .postLike img{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    
+  }
+  .postLikeCounter{
+    display: inline;
+  }
+
+  .postLikeText{
+    margin: 0px 5px;
+    display: inline;
+  }
+  .postText{
+    border-left: 2px solid black;
+    padding-left: 10px;
+    align-self: center;
+    font-size: large;
+    grid-area: PT;
+  }

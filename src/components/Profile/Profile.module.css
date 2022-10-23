@@ -1,0 +1,31 @@
+
+
+  .Avatar{
+    grid-area: A;
+    display: grid;
+    grid-template-areas: 
+    "I N"
+    "I D";
+    grid-template-columns: 200px 400px;
+    font-size: 20px;
+  }
+  
+  .avatarImg {
+    margin: 0px 0px 0px 20px;
+    background-color: grey;
+    grid-area: I;
+    border: 2px solid #CC0A0A;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .name{
+    color:#fff;
+    grid-area: N;
+  }
+  .description{
+    color:#fff;
+    align-self: center;
+    grid-area: D;
+  }

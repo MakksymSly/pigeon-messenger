@@ -1,0 +1,14 @@
+
+  
+  .header{
+    display: grid;
+    background-color: #000;
+    grid-area: h;
+    align-items: center;
+    border-bottom: 1px solid red;
+  }
+  .mainLogo{
+    grid-area: ML;
+      width: 100px;
+      height: 100px;
+    }

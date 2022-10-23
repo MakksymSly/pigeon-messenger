@@ -1,0 +1,50 @@
+.NewPost{
+    display: grid;
+    grid-template-areas: 
+    "T"
+    "In"
+    "B";
+    width: 35%;
+    margin: 0px 20px;
+  }
+  .NewPostTitle{
+    margin: 10px 0px 10px 0px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    grid-area: T;
+  }
+  .NewPostInput{
+    align-items: center;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 50px;
+    grid-area: In;
+    color: #000;
+    font-size: 24px;
+    background-color: #E5EBE8;
+  }
+  .NewPostButton{
+    text-align: end;
+    ;
+    margin: 10px 0px 0px 0px;
+    grid-area: B;
+  }
+  .NewPostButton button{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color:#000;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #CC0A0A
+  }
+  .NewPostButton button:active{
+    background-color: #5c0606;
+  }
+
+  

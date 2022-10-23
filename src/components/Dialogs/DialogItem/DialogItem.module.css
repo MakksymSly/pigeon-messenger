@@ -1,0 +1,17 @@
+.dialog {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 0.1fr 1fr;
+}
+.avatar{
+    border: 3px solid #E2DCC8;
+    border-radius: 100%;
+    width: 50px;
+}
+
+.username{
+    
+    margin: 15px 0px 0px 10px;
+}
+
+
